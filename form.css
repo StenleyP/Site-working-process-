@@ -1,0 +1,44 @@
+body {
+    background-image: url("1.jpg");
+}
+
+.hi {
+    text-align: center;
+    font-size: 200%;
+}
+
+.contactForm {
+    width: 20%;
+    background-image: url("2.jpg");
+    border-radius: 12px;
+    padding: 3% 1% 3% 1%;
+    margin: auto;
+    -webkit-transform: translateX(10px); /* 10px to left */
+    -moz-transform: translateX(10px); /* 10px to left */
+    -ms-transform: translateX(10px); /* 10px to left */
+    transform: translateX(10px); /* 10px to left */
+}
+
+.name {
+    width: auto;
+    height: 5%;
+    font-size: 20pt;
+
+}
+.submit {
+    background-color: purple;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    text-decoration: underline;
+}
