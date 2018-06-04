@@ -1,0 +1,90 @@
+
+
+.hi {
+    float: left;
+    font-size: 14pt;
+    padding: 10px 32px;
+    color: #cccccc;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #4d004d; 
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 4% auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4d004d;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: purple;
+    text-decoration: underline;
+}
+
+.active {
+    background-color: purple;
+}
+
+/*.overlay {
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    top: -77px;
+    background-image: url("1.jpg");   <--------------- Might be useful!
+    position: relative;
+    overflow: hidden;
+    color: #cccccc;
+
+
+     -webkit-transform: translateX(10px); /* 10px to left 
+     -moz-transform: translateX(10px); /* 10px to left 
+     -ms-transform: translateX(10px); /* 10px to left 
+     transform: translateX(10px); /* 10px to left 
+ 
+} */
+
+.chat {
+    color: #4d004d;
+    font-size: 30pt;
+    position: relative;
+    
+}
+
+.box {
+    background-image: url("bg.jpg");
+    height: 200px;
+    width: 30%;
+    position: relative;
+    float: right;
+    margin: auto;
+    top: -200px;
+    right: 50px;
+   
+}
+
+.box a{
+    color: #cccccc;
+    text-decoration: none;
+    border: 5px solid #cccccc;
+    border-radius: 12px;
+}
