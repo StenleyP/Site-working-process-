@@ -71,10 +71,11 @@ li a:hover {
 }
 
 .box {
-    background-image: url("bg.jpg");
+    background-image: url(bg.jpg);
     height: 200px;
     width: 30%;
     position: relative;
+    text-align: center;
     float: right;
     margin: auto;
     top: -200px;
@@ -85,6 +86,43 @@ li a:hover {
 .box a{
     color: #cccccc;
     text-decoration: none;
-    border: 5px solid #cccccc;
+    border: 5px solid #4d004d;
+    background: #4d004d;
     border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:1680px) {
+    .links {
+        width: 1600px;
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    
+    .links {
+        width: 1400px;
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+
+    .links {
+        width: 900px;
+        margin: 6%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    
+    .links {
+        width: 1024px;
+        padding-top: 1%;
+        margin: 7%;
+    }
 }
