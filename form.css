@@ -1,5 +1,6 @@
 body {
     background-image: url("1.jpg");
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .hi {
@@ -41,4 +42,19 @@ body {
 
 .submit:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width:1600px) {
+
+    .name {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    
+    .contactForm {
+        width: 300px;
+    }
 }
